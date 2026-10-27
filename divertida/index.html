@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es-AR" data-base="../">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Almacén de Remeras · Tu outfit empieza acá</title>
+  <meta name="description" content="Remeras, camisas, musculosas y jeans en Mercedes (B). Más de 300 modelos y envíos a todo el país.">
+  <link rel="icon" href="../assets/marca/monograma.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Caveat+Brush&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css?v=1">
+</head>
+<body>
+  <header class="cabeza">
+    <a class="cabeza__marca" href="index.html" aria-label="Almacén de Remeras, inicio"><img src="../assets/marca/monograma.png" alt="" width="22" height="32"><span>Almacén de Remeras</span></a>
+    <nav aria-label="Principal">
+      <a href="index.html" aria-current="page">Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="nosotros.html">Nosotros</a>
+    </nav>
+    <button class="cabeza__carrito" type="button" data-cart-open aria-label="Abrir carrito">Carrito <span data-cart-count>0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" data-hero aria-label="Portada">
+      <div class="hero__pin">
+        <h1 class="hero__titulo" data-hero-titulo>
+          <span class="linea"><span>Tu outfit</span></span>
+          <span class="linea"><span class="contorno">empieza</span></span>
+          <span class="linea"><span class="acento">acá.</span></span>
+        </h1>
+
+        <p class="hero__nota mano" data-hero-nota>+300 modelos
+          <svg viewBox="0 0 200 70" preserveAspectRatio="none" aria-hidden="true"><path d="M30 12 C 90 -6, 190 4, 192 34 C 194 64, 70 72, 18 56 C -8 46, 6 18, 52 9"/></svg>
+        </p>
+
+        <figure class="sticker sticker--1" data-sticker data-dx="1" data-dy="-1"><div class="sticker__entra"><a class="sticker__in" href="#" data-producto="drift-club"><img src="../assets/fotos/f01.webp" alt="Remera Drift Club negra" width="900" height="1350"><span>Drift Club</span></a></div></figure>
+        <figure class="sticker sticker--2" data-sticker data-dx="-1" data-dy="1"><div class="sticker__entra"><a class="sticker__in" href="#" data-producto="leon"><img src="../assets/fotos/f09.webp" alt="Remera León blanca, espalda" width="853" height="1280"><span>León</span></a></div></figure>
+        <figure class="sticker sticker--3" data-sticker data-dx="1" data-dy="1"><div class="sticker__entra"><a class="sticker__in" href="#" data-producto="concept-celeste"><img src="../assets/fotos/f15.webp" alt="Remera Concept celeste" width="853" height="1280"><span>Concept</span></a></div></figure>
+        <figure class="sticker sticker--4" data-sticker data-dx="-.4" data-dy="-1"><div class="sticker__entra"><a class="sticker__in" href="#" data-producto="baggy-celeste"><img src="../assets/fotos/f13.webp" alt="Jean baggy celeste" width="900" height="1350"><span>Baggy</span></a></div></figure>
+
+        <figure class="hero__foto" data-hero-foto>
+          <div class="hero__foto-entra"><div class="hero__foto-in"><img src="../assets/fotos/f08.webp" alt="Camisa calada oliva" width="900" height="1350" fetchpriority="high"></div></div>
+        </figure>
+
+        <div class="hero__velo" data-hero-velo></div>
+        <div class="hero__cartel" data-hero-cartel aria-hidden="true">
+          <p>Estilo <span>sin esfuerzo</span></p>
+          <span class="mano">vení, mirá, tocá la tela</span>
+        </div>
+
+        <div class="hero__baja" aria-hidden="true"><i></i> Bajá</div>
+      </div>
+    </section>
+
+    <section class="bandas" aria-label="Lo que tenemos">
+      <div class="banda banda--1"><div class="banda__pista" data-banda="-1">
+        <span>+300 modelos <b>✺</b> Estilo sin esfuerzo <b>✺</b> Envíos a todo el país <b>✺</b></span>
+        <span>+300 modelos <b>✺</b> Estilo sin esfuerzo <b>✺</b> Envíos a todo el país <b>✺</b></span>
+        <span>+300 modelos <b>✺</b> Estilo sin esfuerzo <b>✺</b> Envíos a todo el país <b>✺</b></span>
+      </div></div>
+      <div class="banda banda--2"><div class="banda__pista" data-banda="1">
+        <span>Remeras <b>●</b> Camisas <b>●</b> Musculosas <b>●</b> Jeans <b>●</b> Mercedes (B) <b>●</b></span>
+        <span>Remeras <b>●</b> Camisas <b>●</b> Musculosas <b>●</b> Jeans <b>●</b> Mercedes (B) <b>●</b></span>
+        <span>Remeras <b>●</b> Camisas <b>●</b> Musculosas <b>●</b> Jeans <b>●</b> Mercedes (B) <b>●</b></span>
+      </div></div>
+    </section>
+
+    <section class="seccion" aria-labelledby="t-cats">
+      <div class="seccion__cabeza">
+        <h2 class="seccion__titulo" id="t-cats">Elegí <em>por dónde</em><br>arrancar</h2>
+        <p class="seccion__bajada"><span class="mano">dale, tocá una</span><br>Cuatro familias de prendas que se combinan entre sí. Arrancá por cualquiera.</p>
+      </div>
+      <div class="cats" data-cats></div>
+    </section>
+
+    <section class="drop" data-drop aria-labelledby="t-drop">
+      <div class="drop__pin">
+        <div class="drop__cabeza">
+          <h2 class="drop__titulo" id="t-drop">Nuevo <span class="mano">drop.</span></h2>
+          <p>Lo último que llegó al local. Deslizá, dale.</p>
+        </div>
+        <div class="drop__pista" data-drop-pista></div>
+      </div>
+    </section>
+
+    <section class="seccion truco" aria-labelledby="t-truco">
+      <h2 class="truco__frase" id="t-truco" data-truco>
+        <span>Truco para</span>
+        <span class="truco__no">no<svg viewBox="0 0 220 120" preserveAspectRatio="none" aria-hidden="true"><path data-trazo d="M40 22 C 120 -8, 214 18, 210 62 C 206 108, 60 118, 18 82 C -10 56, 24 20, 96 10 M 6 112 L 214 8"/></svg></span>
+        <span>tener que comprarte más ropa</span>
+      </h2>
+      <p class="truco__spoiler"><span class="mano">spoiler: no existe.</span>Lo que sí existe son los básicos que combinan con todo lo que ya tenés.</p>
+      <div class="abanico" data-abanico></div>
+    </section>
+
+    <section class="seccion quiz" data-quiz aria-labelledby="t-quiz">
+      <div class="quiz__grilla">
+        <div>
+          <h2 class="quiz__titulo" id="t-quiz">Tu próxima remera del verano.</h2>
+          <p class="quiz__sub mano">Empezás acá. Elegí una:</p>
+          <ul class="quiz__opciones">
+            <li><button class="quiz__op" type="button" data-op="0" aria-pressed="true"><b>A)</b> Para salir de noche <span class="emoji" aria-hidden="true">🔥</span></button></li>
+            <li><button class="quiz__op" type="button" data-op="1" aria-pressed="false"><b>B)</b> Para la costa <span class="emoji" aria-hidden="true">🏖️</span></button></li>
+            <li><button class="quiz__op" type="button" data-op="2" aria-pressed="false"><b>C)</b> Para hacerte el canchero <span class="emoji" aria-hidden="true">😎</span></button></li>
+          </ul>
+        </div>
+        <div class="quiz__vitrina" data-vitrina></div>
+      </div>
+    </section>
+
+    <section class="seccion local" aria-labelledby="t-local">
+      <h2 class="local__frase" id="t-local" data-local>
+        <span>Vení.</span><span>Mirá.</span><span>Tocá la tela.</span>
+      </h2>
+      <div class="local__pie">
+        <div class="local__datos">
+          <p><strong>Calle 25 N° 621</strong>Mercedes, provincia de Buenos Aires. Las prendas se prueban en el local, y si estás lejos te las mandamos.</p>
+          <p><strong>Envíos a todo el país</strong>Elegís online, lo armamos y sale.</p>
+          <div class="local__acciones">
+            <a class="boton" href="https://www.google.com/maps/search/?api=1&amp;query=Calle+25+621+Mercedes+Buenos+Aires" target="_blank" rel="noopener">Cómo llegar</a>
+            <a class="boton boton--linea" href="https://www.instagram.com/almacenderemerasmercedes/" target="_blank" rel="noopener">Horarios en Instagram</a>
+          </div>
+        </div>
+        <div class="sello" aria-hidden="true">
+          <svg viewBox="0 0 200 200" data-sello><defs><path id="circ" d="M100 100 m-78 0 a78 78 0 1 1 156 0 a78 78 0 1 1 -156 0"/></defs><circle cx="100" cy="100" r="96" fill="none" stroke="#f4eee1" stroke-width="2"/><text><textPath href="#circ">Almacén de Remeras · Mercedes (B) · Tu outfit empieza acá ·</textPath></text></svg>
+          <img src="../assets/marca/monograma-blanco.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p class="pie__grande">AR<span>.</span></p>
+    <div class="pie__fila">
+      <nav aria-label="Pie">
+        <a href="catalogo.html">Catálogo</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="https://www.instagram.com/almacenderemerasmercedes/" target="_blank" rel="noopener">Instagram</a>
+        <a href="../index.html">Ver la otra maqueta</a>
+      </nav>
+      <span class="pie__aviso">Maqueta de presentación · precios de ejemplo</span>
+    </div>
+  </footer>
+
+  <script src="../assets/js/productos.js?v=1"></script>
+  <script src="../assets/js/carrito.js?v=1"></script>
+  <script src="piezas.js?v=1"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="movimiento.js?v=1"></script>
+</body>
+</html>

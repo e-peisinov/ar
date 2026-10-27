@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Almacén de Remeras · Maquetas</title>
+  <meta name="description" content="Dos propuestas de tienda online para el Almacén de Remeras de Mercedes.">
+  <link rel="icon" href="assets/marca/monograma.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..800;1,62..125,300..800&family=Big+Shoulders+Display:wght@900&family=Caveat+Brush&display=swap" rel="stylesheet">
+  <style>
+    :root { --papel: #f5f3ee; --tinta: #121212; --crema: #f4eee1; --naranja: #ff5b1f; --io: cubic-bezier(.65, 0, .35, 1); color-scheme: light; }
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; min-height: 100svh; display: flex; flex-direction: column; background: var(--papel); color: var(--tinta); font: 400 16px/1.5 'Archivo', system-ui, sans-serif; }
+    img { display: block; max-width: 100%; height: auto; }
+    header { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 22px clamp(16px, 3vw, 40px); }
+    header img { height: 40px; width: auto; }
+    header p { margin: 0; font-size: 12px; font-weight: 600; font-stretch: 75%; letter-spacing: .14em; text-transform: uppercase; color: #6b675f; text-align: right; }
+    .opciones { flex: 1; display: flex; gap: 12px; padding: 0 clamp(16px, 3vw, 40px) clamp(16px, 3vw, 40px); min-height: 560px; }
+    .opcion { position: relative; flex: 1; display: flex; flex-direction: column; justify-content: flex-end; overflow: hidden; padding: clamp(22px, 3vw, 40px); text-decoration: none; color: #fbfaf7; transition: flex-grow .8s var(--io); }
+    .opcion:hover, .opcion:focus-visible { flex-grow: 1.45; }
+    .opcion img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 1.2s var(--io); }
+    .opcion:hover img { transform: scale(1.05); }
+    .opcion::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, .78)); }
+    .opcion > div { position: relative; z-index: 1; }
+    .opcion small { display: block; margin-bottom: 10px; font-size: 12px; font-weight: 600; font-stretch: 75%; letter-spacing: .14em; text-transform: uppercase; }
+    .opcion p { margin: 12px 0 0; max-width: 40ch; font-size: 16px; opacity: .9; }
+    .opcion span.ir { display: inline-block; margin-top: 18px; padding-bottom: 4px; border-bottom: 1px solid; font-size: 13px; font-weight: 600; font-stretch: 80%; letter-spacing: .12em; text-transform: uppercase; }
+    .d h2 { margin: 0; font: 900 clamp(56px, 7vw, 110px)/.85 'Big Shoulders Display', sans-serif; text-transform: uppercase; }
+    .d h2 b { color: var(--naranja); }
+    .d .mano { font-family: 'Caveat Brush', cursive; font-size: 26px; color: #9fcbf2; }
+    .m h2 { margin: 0; font-size: clamp(44px, 5.4vw, 86px); line-height: .95; font-weight: 500; letter-spacing: -.045em; }
+    .m h2 em { font-weight: 300; }
+    :focus-visible { outline: 3px solid var(--naranja); outline-offset: 3px; }
+    @media (max-width: 760px) { .opciones { flex-direction: column; } .opcion { min-height: 70svh; } .opcion:hover { flex-grow: 1; } header p { display: none; } }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/marca/wordmark.png" alt="Almacén de Remeras" width="445" height="263">
+    <p>Dos propuestas de tienda online<br>Maqueta visual · precios de ejemplo</p>
+  </header>
+  <main class="opciones">
+    <a class="opcion d" href="divertida/">
+      <img src="assets/fotos/f01.webp" alt="" width="1066" height="1600">
+      <div>
+        <small>Opción A</small>
+        <h2>Divertida<b>.</b></h2>
+        <span class="mano">colores, stickers y zoom</span>
+        <p>Colores fuertes, fotos como stickers, zoom con el scroll y frases con la voz del Instagram.</p>
+        <span class="ir">Ver la maqueta →</span>
+      </div>
+    </a>
+    <a class="opcion m" href="minimal/">
+      <img src="assets/fotos/f04.webp" alt="" width="1066" height="1600">
+      <div>
+        <small>Opción B</small>
+        <h2>Minimal <em>y profesional.</em></h2>
+        <p>Blanco hueso, negro y mucho aire. La foto manda y el movimiento es tranquilo.</p>
+        <span class="ir">Ver la maqueta →</span>
+      </div>
+    </a>
+  </main>
+</body>
+</html>

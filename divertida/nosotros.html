@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es-AR" data-base="../">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nosotros · Almacén de Remeras</title>
+  <meta name="description" content="El Almacén de Remeras: un local de ropa en calle 25 N° 621, Mercedes (B).">
+  <link rel="icon" href="../assets/marca/monograma.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Caveat+Brush&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css?v=1">
+</head>
+<body>
+  <header class="cabeza">
+    <a class="cabeza__marca" href="index.html" aria-label="Almacén de Remeras, inicio"><img src="../assets/marca/monograma.png" alt="" width="22" height="32"><span>Almacén de Remeras</span></a>
+    <nav aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="nosotros.html" aria-current="page">Nosotros</a>
+    </nav>
+    <button class="cabeza__carrito" type="button" data-cart-open aria-label="Abrir carrito">Carrito <span data-cart-count>0</span></button>
+  </header>
+
+  <main>
+    <section class="nos-hero" data-nos aria-labelledby="t-nos">
+      <div class="nos-hero__pin">
+        <div class="nos-hero__foto"><div class="nos-hero__tira"><img src="../assets/fotos/f02.webp" alt="Dos chicos con musculosas del local, en una vereda de Mercedes" width="853" height="1280"><img src="../assets/fotos/f20.webp" alt="" width="853" height="1280"><img src="../assets/fotos/f07.webp" alt="" width="853" height="1280"></div></div>
+        <div class="nos-hero__texto">
+          <h1 id="t-nos">Somos el<br>almacén<span>.</span></h1>
+          <p class="mano">de remeras, en Mercedes (B)</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" aria-labelledby="t-como">
+      <div class="seccion__cabeza">
+        <h2 class="seccion__titulo" id="t-como">Así <em>la</em><br>pensamos</h2>
+        <p class="seccion__bajada">Un local con muchas remeras y ganas de que te vayas vestido con algo que te quede bien.</p>
+      </div>
+      <div class="manifiesto">
+        <article class="punto" style="--c:var(--cielo)"><b>01</b><div><h3>Estilo sin esfuerzo</h3><p>Prendas que se combinan solas. Te ponés una y ya estás.</p></div></article>
+        <article class="punto" style="--c:var(--oliva)"><b>02</b><div><h3>+300 modelos</h3><p>Remeras, camisas, musculosas y jeans. Siempre está entrando algo nuevo.</p></div></article>
+        <article class="punto" style="--c:var(--naranja)"><b>03</b><div><h3>A todo el país</h3><p>Si no estás en Mercedes, elegís online y te lo mandamos.</p></div></article>
+      </div>
+    </section>
+
+    <section class="seccion" aria-labelledby="t-calle" style="padding-top:0">
+      <div class="seccion__cabeza">
+        <h2 class="seccion__titulo" id="t-calle">Fotos <em>en la</em><br>calle</h2>
+        <p class="seccion__bajada"><span class="mano">nada de estudio</span><br>Las prendas se sacan en las veredas de Mercedes, con los chicos que las usan.</p>
+      </div>
+      <div class="collage">
+        <figure class="collage__foto" data-paralaje=".6" style="left:2%;top:4%;width:min(30%,300px)"><div style="--r:-5deg"><img src="../assets/fotos/f02.webp" alt="Musculosas con costura en contraste" loading="lazy" width="853" height="1280"><figcaption>los de siempre</figcaption></div></figure>
+        <figure class="collage__foto" data-paralaje="-.4" style="left:34%;top:14%;width:min(30%,320px)"><div style="--r:3deg"><img src="../assets/fotos/f18.webp" alt="Musculosa blanca y campera de jean" loading="lazy" width="853" height="1280"><figcaption>la vereda de enfrente</figcaption></div></figure>
+        <figure class="collage__foto" data-paralaje=".9" style="left:67%;top:0;width:min(30%,300px)"><div style="--r:6deg"><img src="../assets/fotos/f03.webp" alt="Remera lavada índigo" loading="lazy" width="853" height="1280"><figcaption>lavado a la piedra</figcaption></div></figure>
+      </div>
+    </section>
+
+    <section class="seccion" aria-labelledby="t-feria" style="padding-top:0">
+      <div class="feria">
+        <div class="feria__cartel" aria-hidden="true">
+          <div><p>FERI<span>AR</span></p><ul><li>Remeras · Jeans · Buzos</li><li>Sweaters · Camperas</li><li>Accesorios</li></ul></div>
+        </div>
+        <div>
+          <h2 id="t-feria">A veces sacamos todo a la vereda</h2>
+          <p class="txt">La FeriAR es nuestra feria: remeras, jeans, buzos, camperas y accesorios afuera del local. Las fechas las avisamos por Instagram.</p>
+          <a class="boton" href="https://www.instagram.com/almacenderemerasmercedes/" target="_blank" rel="noopener">Seguinos en Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion local" aria-labelledby="t-local">
+      <h2 class="local__frase" id="t-local" data-local>
+        <span>Vení.</span><span>Mirá.</span><span>Tocá la tela.</span>
+      </h2>
+      <div class="local__pie">
+        <div class="local__datos">
+          <p><strong>Calle 25 N° 621</strong>Mercedes, provincia de Buenos Aires.</p>
+          <div class="local__acciones">
+            <a class="boton" href="https://www.google.com/maps/search/?api=1&amp;query=Calle+25+621+Mercedes+Buenos+Aires" target="_blank" rel="noopener">Cómo llegar</a>
+            <a class="boton boton--linea" href="catalogo.html">Ver el catálogo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p class="pie__grande">AR<span>.</span></p>
+    <div class="pie__fila">
+      <nav aria-label="Pie">
+        <a href="catalogo.html">Catálogo</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="https://www.instagram.com/almacenderemerasmercedes/" target="_blank" rel="noopener">Instagram</a>
+        <a href="../index.html">Ver la otra maqueta</a>
+      </nav>
+      <span class="pie__aviso">Maqueta de presentación · precios de ejemplo</span>
+    </div>
+  </footer>
+
+  <script src="../assets/js/productos.js?v=1"></script>
+  <script src="../assets/js/carrito.js?v=1"></script>
+  <script src="piezas.js?v=1"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="movimiento.js?v=1"></script>
+</body>
+</html>

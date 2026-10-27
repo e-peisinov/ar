@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es-AR" data-base="../">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo · Almacén de Remeras</title>
+  <meta name="description" content="Remeras, camisas, musculosas y jeans del Almacén de Remeras de Mercedes. Envíos a todo el país.">
+  <link rel="icon" href="../assets/marca/monograma.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Caveat+Brush&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css?v=1">
+</head>
+<body>
+  <header class="cabeza">
+    <a class="cabeza__marca" href="index.html" aria-label="Almacén de Remeras, inicio"><img src="../assets/marca/monograma.png" alt="" width="22" height="32"><span>Almacén de Remeras</span></a>
+    <nav aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html" aria-current="page">Catálogo</a>
+      <a href="nosotros.html">Nosotros</a>
+    </nav>
+    <button class="cabeza__carrito" type="button" data-cart-open aria-label="Abrir carrito">Carrito <span data-cart-count>0</span></button>
+  </header>
+
+  <main>
+    <section class="portada-cat" aria-labelledby="t-cat">
+      <h1 id="t-cat"><span class="linea"><span>Catálogo<span style="color:var(--naranja-txt)">.</span></span></span></h1>
+      <p class="portada-cat__nota mano">acá hay una parte… en el local hay +300</p>
+      <p class="bajada">Tocá una prenda para ver fotos, colores y talles. Elegís, la sumás al carrito y te la mandamos a todo el país.</p>
+    </section>
+    <div class="filtros" data-filtros role="group" aria-label="Filtrar por tipo de prenda"></div>
+    <div class="grilla" data-grilla aria-live="polite"></div>
+    <section class="cierre-cat" aria-label="Más modelos">
+      <p>¿No está lo que buscás?<span class="mano">pasá por calle 25 N° 621 o escribinos por Instagram</span></p>
+      <a class="boton" href="https://www.instagram.com/almacenderemerasmercedes/" target="_blank" rel="noopener">Escribinos</a>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p class="pie__grande">AR<span>.</span></p>
+    <div class="pie__fila">
+      <nav aria-label="Pie">
+        <a href="catalogo.html">Catálogo</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="https://www.instagram.com/almacenderemerasmercedes/" target="_blank" rel="noopener">Instagram</a>
+        <a href="../index.html">Ver la otra maqueta</a>
+      </nav>
+      <span class="pie__aviso">Maqueta de presentación · precios de ejemplo</span>
+    </div>
+  </footer>
+
+  <script src="../assets/js/productos.js?v=1"></script>
+  <script src="../assets/js/carrito.js?v=1"></script>
+  <script src="piezas.js?v=1"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="movimiento.js?v=1"></script>
+</body>
+</html>

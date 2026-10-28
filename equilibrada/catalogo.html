@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es-AR" data-base="../">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo · Almacén de Remeras</title>
+  <meta name="description" content="Remeras, camisas, musculosas y jeans del Almacén de Remeras de Mercedes. Envíos a todo el país.">
+  <link rel="icon" href="../assets/marca/monograma.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css?v=1">
+</head>
+<body>
+  <div class="franja"><span>Envíos a todo el país</span><span>+300 modelos en el local</span><span>Calle 25 N° 621 · Mercedes (B)</span></div>
+  <header class="cabeza">
+    <nav aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html" aria-current="page">Catálogo</a>
+      <a href="nosotros.html">Nosotros</a>
+    </nav>
+    <a class="cabeza__marca" href="index.html" aria-label="Almacén de Remeras, inicio"><img src="../assets/marca/wordmark.png" alt="" width="445" height="263"></a>
+    <button class="cabeza__carrito" type="button" data-cart-open aria-label="Abrir carrito">Carrito <span data-cart-count>0</span></button>
+  </header>
+
+  <main>
+    <section class="portada-cat" aria-labelledby="t-cat">
+      <div>
+        <p class="rotulo" data-entra-suave>Tienda online</p>
+        <h1 class="titular" id="t-cat" data-entra><span class="linea"><span>Catá<em>logo</em></span></span></h1>
+        <p class="portada-cat__bajada" data-entra-suave>Elegí una prenda para ver sus fotos, colores y talles. Envíos a todo el país o retiro en calle 25 N° 621.</p>
+      </div>
+      <div class="sello" aria-hidden="true" data-entra-sello><div class="sello__giro"><svg viewBox="0 0 200 200" data-sello><defs><path id="c-cat" d="M100 100 m-74 0 a74 74 0 1 1 148 0 a74 74 0 1 1 -148 0"/></defs><text><textPath href="#c-cat">Más de 300 modelos · Envíos a todo el país ·</textPath></text></svg><img src="../assets/marca/monograma.png" alt=""></div></div>
+    </section>
+    <div class="barra">
+      <div class="pestanas" data-pestanas role="group" aria-label="Filtrar por tipo de prenda"></div>
+      <div class="orden"><label for="orden">Ordenar</label><select id="orden" data-orden><option value="destacados">Destacados</option><option value="menor">Menor precio</option><option value="mayor">Mayor precio</option></select></div>
+    </div>
+    <section class="catalogo" aria-label="Prendas">
+      <p class="cuenta" data-cuenta aria-live="polite"></p>
+      <div class="grilla" data-grilla></div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="pie__arriba">
+      <div><img src="../assets/marca/wordmark.png" alt="Almacén de Remeras" width="445" height="263"><p>Remeras, camisas, musculosas y jeans que combinan entre sí. Desde Mercedes (B) a todo el país.</p></div>
+      <div><h3>Tienda</h3><ul><li><a href="catalogo.html?cat=remeras">Remeras</a></li><li><a href="catalogo.html?cat=camisas">Camisas</a></li><li><a href="catalogo.html?cat=musculosas">Musculosas</a></li><li><a href="catalogo.html?cat=jeans">Jeans</a></li></ul></div>
+      <div><h3>Almacén</h3><ul><li><a href="nosotros.html">Nosotros</a></li><li><a href="https://www.instagram.com/almacenderemerasmercedes/" target="_blank" rel="noopener">Instagram</a></li><li><a href="../index.html">Ver las otras maquetas</a></li></ul></div>
+      <div><h3>Local</h3><ul><li>Calle 25 N° 621</li><li>Mercedes (B)</li><li>Envíos a todo el país</li></ul></div>
+    </div>
+    <div class="pie__abajo"><span>© Almacén de Remeras</span><span>Maqueta de presentación · precios de ejemplo</span></div>
+  </footer>
+
+  <script src="../assets/js/productos.js?v=1"></script>
+  <script src="../assets/js/carrito.js?v=1"></script>
+  <script src="piezas.js?v=1"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="movimiento.js?v=1"></script>
+</body>
+</html>

@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Almacén de Remeras · Maquetas</title>
-  <meta name="description" content="Dos propuestas de tienda online para el Almacén de Remeras de Mercedes.">
+  <meta name="description" content="Tres propuestas de tienda online para el Almacén de Remeras de Mercedes.">
   <link rel="icon" href="assets/marca/monograma.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..800;1,62..125,300..800&family=Big+Shoulders+Display:wght@900&family=Caveat+Brush&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..800;1,62..125,300..800&family=Big+Shoulders+Display:wght@900&family=Caveat+Brush&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
   <style>
     :root { --papel: #f5f3ee; --tinta: #121212; --crema: #f4eee1; --naranja: #ff5b1f; --io: cubic-bezier(.65, 0, .35, 1); color-scheme: light; }
     *, *::before, *::after { box-sizing: border-box; }
@@ -27,11 +27,13 @@
     .opcion small { display: block; margin-bottom: 10px; font-size: 12px; font-weight: 600; font-stretch: 75%; letter-spacing: .14em; text-transform: uppercase; }
     .opcion p { margin: 12px 0 0; max-width: 40ch; font-size: 16px; opacity: .9; }
     .opcion span.ir { display: inline-block; margin-top: 18px; padding-bottom: 4px; border-bottom: 1px solid; font-size: 13px; font-weight: 600; font-stretch: 80%; letter-spacing: .12em; text-transform: uppercase; }
-    .d h2 { margin: 0; font: 900 clamp(56px, 7vw, 110px)/.85 'Big Shoulders Display', sans-serif; text-transform: uppercase; }
+    .d h2 { margin: 0; font: 900 clamp(48px, 5.4vw, 96px)/.85 'Big Shoulders Display', sans-serif; text-transform: uppercase; }
     .d h2 b { color: var(--naranja); }
     .d .mano { font-family: 'Caveat Brush', cursive; font-size: 26px; color: #9fcbf2; }
-    .m h2 { margin: 0; font-size: clamp(44px, 5.4vw, 86px); line-height: .95; font-weight: 500; letter-spacing: -.045em; }
+    .m h2 { margin: 0; font-size: clamp(40px, 4.4vw, 76px); line-height: .95; font-weight: 500; letter-spacing: -.045em; }
     .m h2 em { font-weight: 300; }
+    .e h2 { margin: 0; font-size: clamp(40px, 4.4vw, 80px); line-height: .88; font-weight: 800; font-stretch: 68%; text-transform: uppercase; }
+    .e h2 em { font-family: 'Instrument Serif', serif; font-weight: 400; text-transform: none; color: var(--naranja); }
     :focus-visible { outline: 3px solid var(--naranja); outline-offset: 3px; }
     @media (max-width: 760px) { .opciones { flex-direction: column; } .opcion { min-height: 70svh; } .opcion:hover { flex-grow: 1; } header p { display: none; } }
   </style>
@@ -39,7 +41,7 @@
 <body>
   <header>
     <img src="assets/marca/wordmark.png" alt="Almacén de Remeras" width="445" height="263">
-    <p>Dos propuestas de tienda online<br>Maqueta visual · precios de ejemplo</p>
+    <p>Tres propuestas de tienda online<br>Maqueta visual · precios de ejemplo</p>
   </header>
   <main class="opciones">
     <a class="opcion d" href="divertida/">
@@ -58,6 +60,15 @@
         <small>Opción B</small>
         <h2>Minimal <em>y profesional.</em></h2>
         <p>Blanco hueso, negro y mucho aire. La foto manda y el movimiento es tranquilo.</p>
+        <span class="ir">Ver la maqueta →</span>
+      </div>
+    </a>
+    <a class="opcion e" href="equilibrada/">
+      <img src="assets/fotos/f08.webp" alt="" width="1066" height="1600">
+      <div>
+        <small>Opción C</small>
+        <h2>Equilibrada <em>con carácter.</em></h2>
+        <p>La prolijidad de la minimal con color, un sello que gira y fotos en collage. Más personalidad, sin perder seriedad.</p>
         <span class="ir">Ver la maqueta →</span>
       </div>
     </a>
